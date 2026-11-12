@@ -35,6 +35,11 @@ Measured on 64 answerable and 16 unanswerable questions. The method and its cave
 
 ## Architecture
 
+![mars-rag architecture: an offline ingest lane (NTRS API, parse, chunk, embed, index in Chroma and BM25) and an online query lane (hybrid search, cross-encoder re-rank, three decline gates around gpt-oss:20b, cited answer), with the measured results](docs/architecture.png)
+
+<details>
+<summary>Same diagram as text (Mermaid)</summary>
+
 ```mermaid
 flowchart TB
     subgraph Ingest["Ingest (offline)"]
@@ -63,6 +68,8 @@ flowchart TB
         N -->|yes| O[Answer + citations<br/>title, page, NTRS link]
     end
 ```
+
+</details>
 
 The pipeline is built on **LangChain**:
 - `langchain-chroma` for the vector store.
