@@ -1,0 +1,11 @@
+{
+ "faithfulness": 0.929,
+ "llm_context_precision_with_reference": 0.839,
+ "context_recall": 0.933,
+ "n": 60,
+ "nan_rows": {
+  "faithfulness": 0,
+  "llm_context_precision_with_reference": 0,
+  "context_recall": 0
+ }
+}

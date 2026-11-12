@@ -1,0 +1,130 @@
+{
+ "corpus": {
+  "documents": 82,
+  "chunks": 5546
+ },
+ "questions": {
+  "answerable": 64,
+  "unanswerable": 16
+ },
+ "decline": {
+  "unanswerable_correctly_declined": 1.0,
+  "answerable_wrongly_declined": 0.062,
+  "by_reason": {
+   "answerable:llm_insufficient_context": 2,
+   "answerable:no_valid_citation": 2,
+   "unanswerable:retrieval_gate": 10,
+   "unanswerable:llm_insufficient_context": 6
+  }
+ },
+ "latency_ms": {
+  "p50": 8959,
+  "p95": 19548,
+  "max": 29510
+ },
+ "models": {
+  "llm": "gpt-oss:20b",
+  "embeddings": "BAAI/bge-small-en-v1.5",
+  "reranker": "Xenova/ms-marco-MiniLM-L-6-v2"
+ },
+ "retrieval": {
+  "dense": {
+   "n": 64,
+   "page_hit@5": 0.812,
+   "chunk_hit@5": 0.703,
+   "doc_hit@5": 0.984,
+   "mrr@5_page": 0.619,
+   "ms_per_query": 11
+  },
+  "bm25": {
+   "n": 64,
+   "page_hit@5": 0.906,
+   "chunk_hit@5": 0.828,
+   "doc_hit@5": 0.969,
+   "mrr@5_page": 0.717,
+   "ms_per_query": 7
+  },
+  "hybrid": {
+   "n": 64,
+   "page_hit@5": 0.859,
+   "chunk_hit@5": 0.781,
+   "doc_hit@5": 0.984,
+   "mrr@5_page": 0.704,
+   "ms_per_query": 17
+  },
+  "bm25_rerank": {
+   "n": 64,
+   "page_hit@5": 0.859,
+   "chunk_hit@5": 0.828,
+   "doc_hit@5": 0.984,
+   "mrr@5_page": 0.786,
+   "ms_per_query": 460
+  },
+  "hybrid_rerank": {
+   "n": 64,
+   "page_hit@5": 0.859,
+   "chunk_hit@5": 0.812,
+   "doc_hit@5": 0.969,
+   "mrr@5_page": 0.786,
+   "ms_per_query": 893
+  },
+  "gate_sweep": [
+   {
+    "threshold": -6,
+    "answerable_blocked": 0.0,
+    "unanswerable_blocked": 0.312
+   },
+   {
+    "threshold": -4,
+    "answerable_blocked": 0.0,
+    "unanswerable_blocked": 0.5
+   },
+   {
+    "threshold": -3,
+    "answerable_blocked": 0.0,
+    "unanswerable_blocked": 0.562
+   },
+   {
+    "threshold": -2,
+    "answerable_blocked": 0.0,
+    "unanswerable_blocked": 0.625
+   },
+   {
+    "threshold": -1,
+    "answerable_blocked": 0.0,
+    "unanswerable_blocked": 0.688
+   },
+   {
+    "threshold": 0,
+    "answerable_blocked": 0.016,
+    "unanswerable_blocked": 0.75
+   },
+   {
+    "threshold": 1,
+    "answerable_blocked": 0.031,
+    "unanswerable_blocked": 0.75
+   },
+   {
+    "threshold": 2,
+    "answerable_blocked": 0.062,
+    "unanswerable_blocked": 0.75
+   }
+  ]
+ },
+ "ragas": {
+  "faithfulness": 0.929,
+  "llm_context_precision_with_reference": 0.839,
+  "context_recall": 0.933,
+  "n": 60,
+  "nan_rows": {
+   "faithfulness": 0,
+   "llm_context_precision_with_reference": 0,
+   "context_recall": 0
+  }
+ },
+ "citations": {
+  "citations_checked": 74,
+  "citation_accuracy": 0.919,
+  "sentence_citation_coverage": 0.97
+ }
+}

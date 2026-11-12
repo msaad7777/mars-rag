@@ -1,0 +1,453 @@
+{
+ "summary": {
+  "citations_checked": 74,
+  "citation_accuracy": 0.919,
+  "sentence_citation_coverage": 0.97
+ },
+ "checks": [
+  {
+   "question": "What conditions must a bioshield for a Mars surface sample return mission be able to withstand?",
+   "claim": "A bioshield must be capable of withstanding entry, landing, the Martian surface environment, launch, aeroheating, and separation.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What minimum altitude constraint was used for the aerocapture analysis in the Manned Mars mission vehicle design study?",
+   "claim": "The aerocapture analysis in the Manned Mars mission vehicle design study used a minimum altitude constraint of 100,000\u202ffeet at Mars.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What is the estimated mass of a liquid droplet radiator designed to meet the heat rejection loads of the nuclear power system for a manned Mars mission?",
+   "claim": "The estimated mass of a liquid droplet radiator designed to meet the heat rejection loads of the nuclear power system for a manned Mars mission is approximately 1000\u202fkg.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "Which NASA center was assigned responsibility for power concepts and impacts for an early manned Mars mission in the 1987 study?",
+   "claim": "The NASA Lewis Research Center was assigned responsibility for power concepts and impacts for the early manned Mars mission in the 1987 study.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "Which concept was determined to be the best for a fast crew transfer to Mars in the design study?",
+   "claim": "The design study concluded that the **single\u2011vehicle impulsive\u2011thrust concept** was the best scenario for a fast crew transfer to Mars.",
+   "cited": 3,
+   "supported": true
+  },
+  {
+   "question": "What is the most direct radar measurement used by Earth-based radar for Mars?",
+   "claim": "The most direct radar measurement used by Earth\u2011based radar for Mars is range, where the echo time provides topography.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What are the major areas for advanced technology application in the Space Station Freedom Environmental Control and Life Support System (ECLSS)?",
+   "claim": "The major areas for advanced technology application in the Space Station Freedom Environmental Control and Life Support System (ECLSS) are: automatic fault detection, isolation, and recovery (FDIR) and health maintenance; advanced intelligent instrumentation; flexible life support processing systems; and regenerative life support modelling and analysis systems.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What parameters were examined in the study of parametric entry corridors for lunar and Mars aerocapture missions?",
+   "claim": "The study examined the approach orbit hyperbolic excess velocity (V\u221e), the vehicle lift\u2011to\u2011drag ratio (L/D), the maximum aerodynamic load factor (g\u2011load) limit, and the apoapse of the target orbit.",
+   "cited": 1,
+   "supported": false
+  },
+  {
+   "question": "Which upcoming missions are identified as having the best-defined plans to measure dust on Mars?",
+   "claim": "The best\u2011defined missions to measure dust on Mars are the Mars Observer, the Soviet Mars\u202f94 mission, and the Mars Environmental Survey (MESUR) mission.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What key environmental feature of Mars will significantly influence the engineering tasks required for a human landing and permanent outpost establishment?",
+   "claim": "The nearly ubiquitous presence of sand and dust on Mars will significantly influence the engineering tasks required for a human landing and permanent outpost establishment.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What causes stationary surface sand and dust to become electrically charged on Mars?",
+   "claim": "These charging mechanisms create Coulombic forces that attract and adhere the dust to surfaces, altering their thermal, optical, and dielectric properties.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What causes stationary surface sand and dust to become electrically charged on Mars?",
+   "claim": "These charging mechanisms create Coulombic forces that attract and adhere the dust to surfaces, altering their thermal, optical, and dielectric properties.",
+   "cited": 2,
+   "supported": true
+  },
+  {
+   "question": "What quantities are being identified in the thermodynamic analysis of the closed\u2011loop life support system performed by Seagrave and Dowd?",
+   "claim": "The analysis identifies the maximum efficiency, the minimum energy cost, the optimal operating conditions, and the minimum entropy production associated with the life\u2011supported mission.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What two types of nuclear propulsion are discussed in NASA's nuclear propulsion concepts work for Mars missions?",
+   "claim": "NASA\u2019s nuclear propulsion concepts for Mars missions discuss nuclear thermal propulsion (NTP) and nuclear electric propulsion (NEP).",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What is the nominal end-of-life strategy for a nuclear electric propulsion (NEP) Mars vehicle?",
+   "claim": "The nominal end\u2011of\u2011life strategy for an NEP Mars vehicle is to place the system into a stable heliocentric orbit using modest propellant requirements, a conservative risk\u2011management approach, and auxiliary propulsion to raise the orbit.",
+   "cited": 5,
+   "supported": true
+  },
+  {
+   "question": "What is the density of the multilayer insulation (MLI) used for the propellant tanks in the Project Genesis mission?",
+   "claim": "The multilayer insulation (MLI) used for the propellant tanks in the Project Genesis mission has a density of 38\u202fkg/m\u00b3.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What positional accuracy was achieved for the Viking 1 lander using Viking orbiter data?",
+   "claim": "The Viking 1 lander was located to within 40\u2013100\u202fm using Viking orbiter data.",
+   "cited": 2,
+   "supported": true
+  },
+  {
+   "question": "Which Mars Pathfinder landing sites are consistent with the nominal mission requirements?",
+   "claim": "The nominal Mars Pathfinder mission requirements allow landing in three broad regions: Amazonis, Chryse, and Isidis Planitia.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "Which Mars Pathfinder landing sites are consistent with the nominal mission requirements?",
+   "claim": "These are the only areas that satisfy the engineering constraints and safety criteria set for the mission.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What type of environments are targeted for sample collection in the Mars 2005 Sample Return Workshop?",
+   "claim": "The workshop targeted several distinct Martian environments for sample collection: lake\u2011bed deposits, volcanic duricrusts, and ancient impact breccias that may preserve deep\u2011crustal or surface alteration signatures.",
+   "cited": 4,
+   "supported": false
+  },
+  {
+   "question": "What type of environments are targeted for sample collection in the Mars 2005 Sample Return Workshop?",
+   "claim": "The workshop targeted several distinct Martian environments for sample collection: lake\u2011bed deposits, volcanic duricrusts, and ancient impact breccias that may preserve deep\u2011crustal or surface alteration signatures.",
+   "cited": 3,
+   "supported": false
+  },
+  {
+   "question": "What is the current baseline mission architecture for the Human Mars Mission as defined by NASA's Exploration Office at JSC, the Exploration Transportation Office at MSFC, and other NASA centers?",
+   "claim": "The current baseline mission architecture for the Human Mars Mission, as defined by NASA\u2019s Exploration Office at JSC, the Exploration Transportation Office at MSFC, and other NASA centers, is based on deploying mission assets on the Mars surface two years before sending the crew, ensuring that power generation, ISRU, and other cargo are safely delivered and operational prior to crew departure from Earth.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What is the most common skin condition experienced by astronauts during space flight?",
+   "claim": "The most common skin condition experienced by astronauts during space flight is skin rash and irritation.",
+   "cited": 1,
+   "supported": false
+  },
+  {
+   "question": "What is the mass of the MIP design used in the ISRU Development Program?",
+   "claim": "The MIP design used in the ISRU Development Program has a mass of 7.5\u202fkg.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What instruments are carried by the 2001 Mars orbiter to study mineral abundance and radiation hazards?",
+   "claim": "The 2001 Mars orbiter carries a Gamma\u2011Ray Spectrometer (GRS) to map elemental and mineral abundance, a Thermal Emission Imaging System (THEMIS) for mineralogical mapping, and a Martian Radiation Environment Experiment (MARIE) to assess radiation hazards.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What instruments are carried by the 2001 Mars orbiter to study mineral abundance and radiation hazards?",
+   "claim": "The 2001 Mars orbiter carries a Gamma\u2011Ray Spectrometer (GRS) to map elemental and mineral abundance, a Thermal Emission Imaging System (THEMIS) for mineralogical mapping, and a Martian Radiation Environment Experiment (MARIE) to assess radiation hazards.",
+   "cited": 3,
+   "supported": true
+  },
+  {
+   "question": "When are the launches of orbiters, landers and rovers scheduled in the Mars Surveyor Program?",
+   "claim": "Launches of the Mars Surveyor Program\u2019s orbiters, landers and rovers are scheduled for 2001 and again in 2003, with a complete sample\u2011return system slated for 2005.",
+   "cited": 2,
+   "supported": true
+  },
+  {
+   "question": "When are the launches of orbiters, landers and rovers scheduled in the Mars Surveyor Program?",
+   "claim": "The 2001 Orbiter is set to launch on March\u202f30,\u202f2001, and the 2001 Lander on April\u202f10,\u202f2001, arriving at Mars on October\u202f20,\u202f2001 and January\u202f22,\u202f2002 respectively.",
+   "cited": 1,
+   "supported": false
+  },
+  {
+   "question": "What is the science goal of the Athena rover on the Mars Surveyor Project?",
+   "claim": "The Athena rover\u2019s science goal is to determine the geologic and climatic history of a site in the ancient highlands where conditions may have been favorable to the preservation of evidence of possible pre\u2011biotic or biotic processes.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What are the latitude and longitude coordinates of Site 1 considered for the Second Mars Surveyor Landing Site Workshop?",
+   "claim": "The coordinates for Site\u202f1 considered at the Second Mars Surveyor Landing Site Workshop are 8.0\u00b0\u202fS latitude and 49.3\u00b0\u202fW longitude.",
+   "cited": 2,
+   "supported": true
+  },
+  {
+   "question": "What effect do charged dielectric dust particles have in the Martian atmosphere?",
+   "claim": "Charged dielectric dust particles in the Martian atmosphere accumulate space charges that generate a reverse electric field, which can terminate corona discharge and influence plasma behavior.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What effect do charged dielectric dust particles have in the Martian atmosphere?",
+   "claim": "Their presence modifies the atmospheric electrical properties, potentially leading to Paschen breakdown at millimeter to meter scales and affecting surface and atmospheric electrical interactions.",
+   "cited": 3,
+   "supported": true
+  },
+  {
+   "question": "What are the atmospheric density scale heights at aerocapture altitude for the terrestrial planets compared to Neptune and Titan?",
+   "claim": "The atmospheric density scale height at aerocapture altitude for the terrestrial planets is low, ranging from about 4\u202fkm to 8\u202fkm.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What are the atmospheric density scale heights at aerocapture altitude for the terrestrial planets compared to Neptune and Titan?",
+   "claim": "In contrast, at Neptune and Titan the scale height is much larger, on the order of 30\u202fkm to 50\u202fkm.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What is the typical altitude range for aerocapture periapsis at Mars?",
+   "claim": "Typical aerocapture periapsis altitudes at Mars are in the 40\u201360\u202fkm range, with a nominal value near 50\u202fkm.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What is the typical altitude range for aerocapture periapsis at Mars?",
+   "claim": "Typical aerocapture periapsis altitudes at Mars are in the 40\u201360\u202fkm range, with a nominal value near 50\u202fkm.",
+   "cited": 2,
+   "supported": true
+  },
+  {
+   "question": "What type of radiation monitoring equipment will be required to accompany crew during lunar missions according to NASA's plans?",
+   "claim": "NASA\u2019s plans call for a new generation of real\u2011time dosimeters and radiation monitors to accompany the crew during lunar missions, providing immediate data for critical decision\u2011making when solar energetic particle events occur.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What type of radiation monitoring equipment will be required to accompany crew during lunar missions according to NASA's plans?",
+   "claim": "NASA\u2019s plans call for a new generation of real\u2011time dosimeters and radiation monitors to accompany the crew during lunar missions, providing immediate data for critical decision\u2011making when solar energetic particle events occur.",
+   "cited": 2,
+   "supported": true
+  },
+  {
+   "question": "How do Mars-GRAM 2005 density profiles compare with TES limb data at heights up to about 30 km?",
+   "claim": "Mars\u2011GRAM\u202f2005 density profiles agree well with TES limb data for heights up to about 30\u202fkm, showing close correspondence in that altitude range.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "How do Mars-GRAM 2005 density profiles compare with TES limb data at heights up to about 30 km?",
+   "claim": "Mars\u2011GRAM\u202f2005 density profiles agree well with TES limb data for heights up to about 30\u202fkm, showing close correspondence in that altitude range.",
+   "cited": 2,
+   "supported": true
+  },
+  {
+   "question": "What is the primary driver for loop closure in NASA life support systems?",
+   "claim": "The primary driver for loop closure in NASA life support systems is the addition of targeted technologies that process life\u2011support byproducts to recover resources, such as brine dewatering subsystems.",
+   "cited": 3,
+   "supported": true
+  },
+  {
+   "question": "What iron minerals dominate the sedimentary section investigated by Opportunity at Meridiani Planum?",
+   "claim": "The iron mineralogy of the sedimentary section investigated by Opportunity is dominated by hematite and jarosite.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "How many atmosphere profiles were used in the Monte Carlo simulation for the 2007 Mars Phoenix Entry, Descent, and Landing?",
+   "claim": "2000 atmosphere profiles were used in the Monte\u202fCarlo simulation for the 2007 Mars Phoenix Entry, Descent, and Landing.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What is the primary source of uncertainty in shielding estimates for space missions beyond low Earth orbit?",
+   "claim": "The primary source of uncertainty in shielding estimates for missions beyond low\u2011Earth orbit is the large uncertainty in the biological response to high\u2011charge, high\u2011energy (HZE) ions of galactic cosmic rays, i.e., the relative biological effectiveness of different radiation types.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What is the primary source of uncertainty in shielding estimates for space missions beyond low Earth orbit?",
+   "claim": "The primary source of uncertainty in shielding estimates for missions beyond low\u2011Earth orbit is the large uncertainty in the biological response to high\u2011charge, high\u2011energy (HZE) ions of galactic cosmic rays, i.e., the relative biological effectiveness of different radiation types.",
+   "cited": 2,
+   "supported": true
+  },
+  {
+   "question": "How many crew members are planned for each Mars mission in NASA's Design Reference Architecture 5.0?",
+   "claim": "NASA\u2019s Design Reference Architecture\u202f5.0 plans six crewmembers per Mars mission.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What is a recommended approach to implementing a reliability program for ultra reliable life support systems?",
+   "claim": "A recommended approach is to share responsibility between a design and development team that knows the hardware and a specialist reliability organization that is familiar with reliability methods and tools, directing, coordinating, and funding them to undertake the reliability program plan.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "Which silicone-based polymers showed no change in mechanical properties after radiation exposure in the Mars mission photonics tests?",
+   "claim": "Silicone, DMS, and PDMS showed no change in mechanical properties after radiation exposure in the Mars mission photonics tests.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "How many launch vehicles are required for the Red Dragon Mars Sample Return architecture when combined with the Mars 2020 rover mission?",
+   "claim": "The Red Dragon Mars Sample Return architecture combined with the Mars\u202f2020 rover mission requires three launch vehicles: one Atlas\u202fV for the rover, one Falcon\u202fHeavy for the Red Dragon to Mars, and a second Falcon\u202fHeavy for the recovery mission in low\u2011Mars orbit.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What are the three liquefaction schemes analyzed for in-situ oxygen on Mars?",
+   "claim": "The three liquefaction schemes analyzed are: 1) liquefaction in a separate tank (baseline case), 2) liquefaction in the transfer line to the vehicle from the oxygen production plant, and 3) liquefaction within the Mars Ascent Vehicle (MAV) propellant tanks.",
+   "cited": 2,
+   "supported": true
+  },
+  {
+   "question": "What are the size, mass, and power consumption of the Spacecraft Atmosphere Monitor (SAM) developed by the NASA LSS project?",
+   "claim": "The Spacecraft Atmosphere Monitor (SAM) is a miniature GC/MS system with a size of 22.2\u202fcm\u202f\u00d7\u202f24.1\u202fcm\u202f\u00d7\u202f19.1\u202fcm, a mass of 9.5\u202fkg (including consumables), and a power consumption of 34\u202fwatts.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What is the maximum human-class payload mass that the three entry configurations reviewed in the study are designed to deliver to the surface of Mars?",
+   "claim": "The study\u2019s three entry configurations are designed to deliver a maximum human\u2011class payload of 20\u202ft to the Martian surface.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What is the maximum human-class payload mass that the three entry configurations reviewed in the study are designed to deliver to the surface of Mars?",
+   "claim": "The study\u2019s three entry configurations are designed to deliver a maximum human\u2011class payload of 20\u202ft to the Martian surface.",
+   "cited": 3,
+   "supported": true
+  },
+  {
+   "question": "What propellants does the Mars Ascent Vehicle use to lift crew and cargo off the Martian surface?",
+   "claim": "The Mars Ascent Vehicle (MAV) uses liquid oxygen (LO\u2082) collected and liquefied on the Martian surface together with methane (LCH\u2084) brought from Earth as its propellant to lift crew and cargo off the surface.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "During a 120\u2011day dust storm on Mars, what percentage of the baseline solar energy reaches the lander's photovoltaic arrays?",
+   "claim": "During a 120\u2011day dust storm on Mars, the incident solar energy on the lander's photovoltaic arrays is about 35\u202f% of the baseline level.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "How many days must the ISRU production system operate to fully fuel a Mars Ascent Vehicle before human departure from Earth?",
+   "claim": "The ISRU production system must operate continuously for 480 days to fully fuel a Mars Ascent Vehicle before human departure from Earth.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What is the target water recovery rate from urine brine in the LSS Project?",
+   "claim": "The LSS Project targets a water recovery rate from urine brine of greater than 90\u202f%.",
+   "cited": 3,
+   "supported": true
+  },
+  {
+   "question": "What is the primary difference between the pure gravity turn (PGT) and augmented gravity turn (AGT) guidance approaches in the Human Mars Entry, Descent and Landing Architecture Study?",
+   "claim": "The primary difference is that the augmented gravity turn (AGT) allows small variations in the vehicle\u2019s angle of attack and sideslip during descent, whereas the pure gravity turn (PGT) forces them to remain aligned with the relative velocity vector.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "Which propellant binder was found most desirable for both SRM1 and SRM2 in the Mars Ascent Vehicle solid propulsion configuration study?",
+   "claim": "The binder found most desirable for both SRM1 and SRM2 was TP\u2011H\u20113062, a Carboxy Terminated Polybutadiene (CTPB) binder.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What advantage does the larger Common Berthing Mechanism (CBM) system provide for Gateway modules?",
+   "claim": "The larger Common Berthing Mechanism (CBM) system provides a much larger passthrough for logistics and systems, better feed\u2011throughs for utilities, and can be adapted to surface\u2011habitat berthing interfaces where step\u2011through hatches are possible in low\u2011gravity environments.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What new ground test techniques are identified for retropropulsion testing for Mars entry, descent, and landing?",
+   "claim": "New ground test techniques identified for retropropulsion testing include using heated inert gases as substitutes for combustion products, additively manufactured 6\u2011component flow\u2011through force and moment balances, and off\u2011body quantitative diagnostic measurements.",
+   "cited": 2,
+   "supported": true
+  },
+  {
+   "question": "How many CTBE can be accommodated across the eight-crew vertical Common Habitat and two logistics modules in the 2.063 logistics module case?",
+   "claim": "48.25 CTBE can be accommodated across the eight\u2011crew vertical Common Habitat and two logistics modules in the 2.063 logistics module case.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What did NASA conduct a high\u2011level study on regarding ascent vehicles?",
+   "claim": "NASA conducted a high\u2011level study on the concept of dual\u2011purpose use of an ascent vehicle for both the Moon and Mars ascent mission segments.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What percentage of the upper 95% confidence level for cancer mortality must NASA keep the Risk of Exposure Induced Death (REID) below for astronaut career radiation limits?",
+   "claim": "NASA requires that the Risk of Exposure Induced Death (REID) for fatal cancer not exceed 3% at the upper 95% confidence level for astronaut career radiation limits.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What pressure is the stack equalized to during safe haven operations in the Common Habitat concept?",
+   "claim": "The stack is equalized to 8.2\u202fpsi during safe\u2011haven operations.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "How many ATHLETE robots are required to transport a fully loaded Logistics Module to the Common Habitat on the Moon and on Mars?",
+   "claim": "Three ATHLETE robots are required to transport a fully loaded Logistics Module to the Common Habitat on the Moon.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "How many ATHLETE robots are required to transport a fully loaded Logistics Module to the Common Habitat on the Moon and on Mars?",
+   "claim": "Six ATHLETE robots are required for the same transport on Mars.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What diameters were compared in the Constellation Lunar Surface Systems Project Office habitat sizing activities?",
+   "claim": "The Constellation Lunar Surface Systems Project Office compared 3\u2011meter and 3.5\u2011meter diameters for modular habitat elements.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What actions were taken to repair the Tri-ATHLETE robot after its grapple mechanism broke off during a mission?",
+   "claim": "Each of these steps is documented in the report.",
+   "cited": 1,
+   "supported": false
+  },
+  {
+   "question": "How many pump\u2011fed NTO/MMH main engines are mounted on the first stage of the updated Human Mars Ascent Vehicle concept?",
+   "claim": "The updated Human Mars Ascent Vehicle concept mounts four pump\u2011fed NTO/MMH main engines on its first stage.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "How many pump\u2011fed NTO/MMH main engines are mounted on the first stage of the updated Human Mars Ascent Vehicle concept?",
+   "claim": "The updated Human Mars Ascent Vehicle concept mounts four pump\u2011fed NTO/MMH main engines on its first stage.",
+   "cited": 2,
+   "supported": true
+  },
+  {
+   "question": "What must be considered when accounting for the cost of Mars ascent propellant in a round-trip Mars mission?",
+   "claim": "The cost of Mars ascent propellant must include the mass of the manufacturing equipment that must be launched from Earth, transported to Mars, and landed there, as well as the energy required to decelerate it for descent.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "When was the NTP System Analysis of the ESMD reference mission completed?",
+   "claim": "The NTP System Analysis of the ESMD reference mission was completed on April\u202f17,\u202f2006.",
+   "cited": 1,
+   "supported": true
+  },
+  {
+   "question": "What three specific areas of aerothermodynamics were identified as having high uncertainty at the start of the test campaign in early 2023 for the Mars Sample Return Earth Entry System?",
+   "claim": "The three specific areas of aerothermodynamics identified at the start of the test campaign in early 2023 were: 1) surface heating on a 52.5\u2011degree sphere\u2011cone geometry, 2) surface heating on a 3\u2011D woven roughness pattern, and 3) surface heating on a 3\u2011D woven roughness pattern with supersonic flow present near surface roughness elements.",
+   "cited": 3,
+   "supported": true
+  }
+ ]
+}

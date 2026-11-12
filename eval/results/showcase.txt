@@ -1,0 +1,24 @@
+Q: Why is sending humans to Mars so difficult?
+A: Sending humans to Mars is difficult because the journey is long and the distance from Earth ranges from 58 million to 400 million km, making two‑way communication delays up to 44 minutes [3]. The lack of on‑board propellant and infrastructure on Mars limits safe descent, ascent, and abort options, so an emergency during transit or on the surface may leave crews stranded [2]. Additionally, the technology required for nuclear electric propulsion and its critical subsystems, such as the Primary Heat Rejection Subsystem, is still under development and must be accelerated to meet future launch goals [1]. These gaps in propulsion, abort capability, and supporting technology make human Mars missions exceptionally challenging.
+   [1] Making Early-Stage Design Decisions for New Aerospace Technology in the Absence of Spaceflight-Heritage Data (NTRS 20250011014, p.2)
+   [2] Exploration Systems Development Mission Directorate: Moon to Mars Architecture Definition Document  (NTRS 20240015571, p.45)
+   [3] Human Exploration of Mars Design Reference Architecture 5.0 (NTRS 20100028285, p.10)
+   declined: False None | latency ms: {'retrieve': 842, 'generate': 10067, 'total': 10910}
+
+Q: How can a crew be protected from radiation on the way to Mars?
+A: Crew protection on the way to Mars requires external shielding around the habitat module, as the current NASA‑JSC design lacks sufficient protection [1][4]. The shielding must attenuate background Galactic Cosmic Radiation (GCR) and any radiation from the Nuclear Thermal Reactor during thrust maneuvers, and can be provided by hydrogen propellant tanks or dedicated mass shields [4]. Design studies show that adequate shielding must also protect against Van Allen belt particles, solar flares, and high‑energy cosmic rays, with limits governed by bone‑marrow tolerance [3]. Thus, a combination of mass‑efficient external shielding (e.g., hydrogen tanks) and radiation‑hardened equipment is required to keep crew doses below mission limits [1][3].
+   [1] Nuclear Thermal Propulsion Requirements Analysis of the ESAS Reference Human Mars Mission Architecture (NTRS 20240013888, p.16)
+   [3] Design of a fast crew transfer vehicle to Mars (NTRS 19890006597, p.58)
+   [4] Nuclear Thermal Propulsion Requirements Analysis of the ESAS Reference Human Mars Mission Architecture (NTRS 20240013888, p.16)
+   declined: False None | latency ms: {'retrieve': 1041, 'generate': 10983, 'total': 12023}
+
+Q: When did astronauts last walk on the Moon?
+A: The NASA reports in this corpus do not cover that question.
+   declined: True retrieval_gate (top rerank score -3.57) | latency ms: {'retrieve': 1807}
+
+Q: Why does the Mars Ascent Vehicle use methane and oxygen?
+A: The Mars Ascent Vehicle uses methane and oxygen because this cryogenic propellant pair is considered the most promising for on‑Mars production, offering volumetric favorability over liquid hydrogen and enabling a “Mars‑forward” architecture [3]. Additionally, an ISRU system that produces both methane and oxygen from Martian resources can reduce the landed propellant mass by up to 95 %, making the mission significantly lighter and more efficient [5].
+   [3] A Parametric Assessment of Lunar and Mars Ascent Vehicle Synergy (NTRS 20205007701, p.9)
+   [5] An ISRU Propellant Production System to Fully Fuel a Mars Ascent Vehicle (NTRS 20170001421, p.10)
+   declined: False None | latency ms: {'retrieve': 606, 'generate': 8001, 'total': 8607}
+

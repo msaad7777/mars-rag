@@ -1,0 +1,335 @@
+[
+ {
+  "question": "Why is sending humans to Mars so difficult?",
+  "answer": "Sending humans to Mars is difficult because the journey is long and the distance from Earth ranges from 58\u202fmillion to 400\u202fmillion\u202fkm, making two\u2011way communication delays up to 44\u202fminutes [3]. The lack of on\u2011board propellant and infrastructure on Mars limits safe descent, ascent, and abort options, so an emergency during transit or on the surface may leave crews stranded [2]. Additionally, the technology required for nuclear electric propulsion and its critical subsystems, such as the Primary Heat Rejection Subsystem, is still under development and must be accelerated to meet future launch goals [1]. These gaps in propulsion, abort capability, and supporting technology make human Mars missions exceptionally challenging.",
+  "declined": false,
+  "decline_reason": null,
+  "citations": [
+   {
+    "n": 1,
+    "doc_id": "20250011014",
+    "title": "Making Early-Stage Design Decisions for New Aerospace Technology in the Absence of Spaceflight-Heritage Data",
+    "page": 2,
+    "url": "https://ntrs.nasa.gov/citations/20250011014"
+   },
+   {
+    "n": 2,
+    "doc_id": "20240015571",
+    "title": "Exploration Systems Development Mission Directorate: Moon to Mars Architecture Definition Document ",
+    "page": 45,
+    "url": "https://ntrs.nasa.gov/citations/20240015571"
+   },
+   {
+    "n": 3,
+    "doc_id": "20100028285",
+    "title": "Human Exploration of Mars Design Reference Architecture 5.0",
+    "page": 10,
+    "url": "https://ntrs.nasa.gov/citations/20100028285"
+   }
+  ],
+  "contexts": [
+   {
+    "n": 1,
+    "text": "2 \n \nI. Introduction and Background \n As of the writing of this paper in late 2025, there have been no human missions to Mars . Why? And what are the \ntechnology gaps that must be addressed to accomplish this goal? \n Putting humans on Mars is not an easy feat. It is a long journey from Earth to Mars, and back . Alternative \npropulsion methods to solely, traditional chemical propulsion are being explored, such as Nuclear Electric Propulsion. \nThis is one of the technology gaps currently being worked on by NASA. Per a recommendation from a 2021 report \nfrom the National Academies of Sciences, Engineering, and Medicine, \u201cIf NASA plans to apply technology to a 2039 \nlaunch of the baseline mission, NASA should immediately accelerate NEP technology development .\u201d [1]. MARVL \nis a project that is contributing to this development. \nA. Background on the MARVL Project \nThe MARVL project is working to develop the Primary Heat Rejection Subsystem (PHRS) for a Mars Transit \nVehicle that will be powered using Nuclear Electric Propulsion. The PHRS is one of the five Critical Technology \nElements for an NEP system, identified by the NASA Space Nuclear Propulsion (SNP) project [2].",
+    "page": 2,
+    "title": "Making Early-Stage Design Decisions for New Aerospace Technology in the Absence of Spaceflight-Heritage Data",
+    "year": "2025",
+    "doc_id": "20250011014",
+    "chunk_id": "20250011014-p2-3",
+    "url": "https://ntrs.nasa.gov/citations/20250011014",
+    "rerank_score": 3.6147263050079346
+   },
+   {
+    "n": 2,
+    "text": "straightforward option. But on the transit to Mars, mission abort is complicated because of the \nsheer distance between Earth and Mars. Depending on when abort is initiated in the mission \ntimeline, the heliocentric nature of the transit may require months to return to Earth, regardless of \nthe transportation system selected. For transportation architectures that rely on Mars vicinity \nreturn fueling strategies, mission abort during the outbound transit leg may not be possible. In \nmany cases, transit abort wi ll not be a practical response to an emergency because the time to \neffect crew return will exceed the amount of time within which the crew must resolve the \nemergency. Early human Mars missions will also have limited Mars ascent/descent abort options. \nMars\u2019s atmosphere and gravity make it difficult to carry sufficient on -board propellant to initiate \nhuman-scale payload descent and abort back to orbit during Mars descent, and Mars will initially \nlack the specialized infrastructure and staffing needed to aid crew after an ascent abort back to \nthe Mars surface \u2014 even a successful abort to the surface may very well leave crew stranded",
+    "year": "2025",
+    "title": "Exploration Systems Development Mission Directorate: Moon to Mars Architecture Definition Document ",
+    "chunk_id": "20240015571-p45-131",
+    "url": "https://ntrs.nasa.gov/citations/20240015571",
+    "doc_id": "20240015571",
+    "page": 45,
+    "rerank_score": 2.6211352348327637
+   },
+   {
+    "n": 3,
+    "text": "10 \n5. KEY CHALLENGES \nMissions to Mars represent the next plateau in human exploration of space. Just as Mercury, Gemini, \nand Apollo grew out of the technology and experience base of the aircraft and missile industry, Mars \nmissions would be an outgrowth of our technology and experience base of Apollo, Shuttle, and ISS in \ncombination with other technologies recognized as necessary to reach this plateau. There are significant \nchallenges that must be overcome to successfully complete a potential human Mars exploration mission, \nbut NASA has historically used the creative talents of its workforce to find the ways and means to \nsuccessfully carry out its assigned missions that more than satisfy the stakeholders; this same workforce \nwould apply this same creativity to the new objectives of returning to the Moon and sending people, for \nthe first time, to Mars. Some of the key challenges facing future explorers to Mars are provided in Table \n1 and summarized below. [Insert Table 1 here] \nTable 1 - Comparison of Lunar and Mars Mission Challenges \nMoon Mars\nDistance from Earth 384,000 km 58,000,000 \u2013 400,000,000 km\nTwo-Way Communication Time 2.6 seconds 6 \u2013 44 minutes",
+    "doc_id": "20100028285",
+    "title": "Human Exploration of Mars Design Reference Architecture 5.0",
+    "year": "2010",
+    "url": "https://ntrs.nasa.gov/citations/20100028285",
+    "page": 10,
+    "chunk_id": "20100028285-p10-27",
+    "rerank_score": 1.9694221019744873
+   },
+   {
+    "n": 4,
+    "text": "24 Workshop on Mars 2001 SITE SLECTION FOR SURVEYOR AND HEDS: N. A. Cabrol\nments we are sending the human crew, and what could\nbe their tasks. Also, the perspective of building a base\non Mars should be always present in the selection of\nsites. Such site might provide the necessary elements\nto allow natural protection for a crew, and resources\n(access to water- liquid or ice --). Surveyor can provide this crucial knowledge and become a powerful\nprecursor to human missions.\nUsing the Surveyor Fleet as a Precursor for\nHuman Exploration: All the above assessment studies will have to be done imperiously anyway before\nany human mission can be sent on Mars. It would be\nwise and much cost effective to use the Surveyor Program as a Precursor Fleet for the human missions, and\ninject a strong and effective synergism between HEDS\nand MSP in term of landing site selection. If this synergism is not achieved, we will end up with the necessity of sending other automated missions with a special HEDS focus prior to manned spacecrafts in order to\nachieve the environmental survey, while this aspect\ncould be an ongoing effectively coupled with the Surveyor missions.\nReference:",
+    "doc_id": "20000012695",
+    "title": "Workshop on Mars 2001: Integrated Science in Preparation for Sample Return and Human Exploration",
+    "year": "1999",
+    "url": "https://ntrs.nasa.gov/citations/20000012695",
+    "page": 38,
+    "chunk_id": "20000012695-p38-96",
+    "rerank_score": 0.9629522562026978
+   },
+   {
+    "n": 5,
+    "text": "BIOGRAPHY .............................................................. 13 \n \n1. INTRODUCTION \nMars continues to be an Agency horizon goal, extending \nhuman exploration efforts through the Artemis enterprise \n[1,2]. As Agency goals shift, so too has the design of \nreference human Mars exploration elements. NASA \nengineers have continued to make steady pro gress in \nunderstanding challenges and complexities of sending \nhumans to Mars, refining reference Mars exploration \narchitectures as capabilities and technologies evolve. The \nMars Architecture Team, under NASA\u2019s Human Exploration \nand Operations Mission Directorate , has continued the work \nof the Mars Study Capability Team since 2019, developing \nconceptual designs for human Mars exploration [2] \nincluding: in-space transportation systems [3], Mars surface \nsystems [4,5], and entry, descent, landing (EDL), and ascent \nsystems [6]. This includes the Mars Ascent Vehicle (MAV). \nThese studies are crucial to informing technology \ninvestments and priorities to continue progressing towards \nenabling human exploration of Mars. \nThe National Aeronautics and Space Administration\u2019s",
+    "doc_id": "20210026439",
+    "title": "Updated Human Mars Ascent Vehicle Concept in Support of NASA's Strategic Analysis Cycle 2021",
+    "year": "2022",
+    "url": "https://ntrs.nasa.gov/citations/20210026439",
+    "page": 1,
+    "chunk_id": "20210026439-p1-1",
+    "rerank_score": 0.8971104025840759
+   }
+  ],
+  "timings_ms": {
+   "retrieve": 842,
+   "generate": 10067,
+   "total": 10910
+  }
+ },
+ {
+  "question": "How can a crew be protected from radiation on the way to Mars?",
+  "answer": "Crew protection on the way to Mars requires external shielding around the habitat module, as the current NASA\u2011JSC design lacks sufficient protection [1][4]. The shielding must attenuate background Galactic Cosmic Radiation (GCR) and any radiation from the Nuclear Thermal Reactor during thrust maneuvers, and can be provided by hydrogen propellant tanks or dedicated mass shields [4]. Design studies show that adequate shielding must also protect against Van\u202fAllen belt particles, solar flares, and high\u2011energy cosmic rays, with limits governed by bone\u2011marrow tolerance [3]. Thus, a combination of mass\u2011efficient external shielding (e.g., hydrogen tanks) and radiation\u2011hardened equipment is required to keep crew doses below mission limits [1][3].",
+  "declined": false,
+  "decline_reason": null,
+  "citations": [
+   {
+    "n": 1,
+    "doc_id": "20240013888",
+    "title": "Nuclear Thermal Propulsion Requirements Analysis of the ESAS Reference Human Mars Mission Architecture",
+    "page": 16,
+    "url": "https://ntrs.nasa.gov/citations/20240013888"
+   },
+   {
+    "n": 3,
+    "doc_id": "19890006597",
+    "title": "Design of a fast crew transfer vehicle to Mars",
+    "page": 58,
+    "url": "https://ntrs.nasa.gov/citations/19890006597"
+   },
+   {
+    "n": 4,
+    "doc_id": "20240013888",
+    "title": "Nuclear Thermal Propulsion Requirements Analysis of the ESAS Reference Human Mars Mission Architecture",
+    "page": 16,
+    "url": "https://ntrs.nasa.gov/citations/20240013888"
+   }
+  ],
+  "contexts": [
+   {
+    "n": 1,
+    "text": "for crew protection during a prescribed Mars mission. \n \nIt has been determined that the crew habitat module, supplied by NASA-JSC does not \ninclude any external shielding at this time. Shielding around the crew habitat will be \nessential to sufficiently reduce the background GCR (global Cosmic Radiation) that will \nbe present during deep space, manned missions beyond the immediate protection of the \nEarth\u2019s magnetic field. In all likelihood the extent of that shielding will be more than \nsufficient to handle any additional attenuation from the NTR during scheduled major \nthrust maneuvers. \n \nPiloted and cargo space vehicles represent different shielding requirements, which largely \ndrive the shield design. Although there are known sensitivities to payload equipment, \nsuch as electronics and some structural devices, cargo missions will usually have less \nrestrictive radiation dose criteria than missions involving human crews. Radiation \nexposure is critical and the reactor and local crew shielding should be optimized for the \ntotal dose from natural radiation and the radiation from the reactor. For space missions,",
+    "title": "Nuclear Thermal Propulsion Requirements Analysis of the ESAS Reference Human Mars Mission Architecture",
+    "page": 16,
+    "url": "https://ntrs.nasa.gov/citations/20240013888",
+    "doc_id": "20240013888",
+    "chunk_id": "20240013888-p16-21",
+    "year": "2006",
+    "rerank_score": 6.770008563995361
+   },
+   {
+    "n": 2,
+    "text": "protection in a human lander or ascent vehicle. Given the short dur ation of time crew would be in the MAV (1\u20137 d) \nand the MAV\u2019s sensitivity to mass, there are probably more significant ways to limit crew radiation exposure than \nthrough MAV-specific shielding. Examples of more potentially effective solutions include sheltering in place on the \nsurface of Mars, rendezvous with the DST, or timing solar particle event arrival with a Mars eclipse. \nFrom an electronics and avionics perspective, the MAV would immediately need to be designed with better \nradiation-hardened equipment that might be more equivalent to the ~10 y lifetime requirements that might be levied \non a reusable LAV. This would be a design change with respect to the initial lander NASA plans to use for the \nhuman Lunar return, but in family with sustained phase missions and LAV designs. While the timeline for which a \nMAV might need to be quiescent prior to start up to perform its mission may vary, it is likely to fall in the range of \nabout 3\u20137 y to protect for at least two Mars mission opportunity windows. \n \n4. Lander Configuration Dependencies",
+    "url": "https://ntrs.nasa.gov/citations/20205007701",
+    "title": "A Parametric Assessment of Lunar and Mars Ascent Vehicle Synergy",
+    "year": "2020",
+    "chunk_id": "20205007701-p9-36",
+    "doc_id": "20205007701",
+    "page": 9,
+    "rerank_score": 6.260517120361328
+   },
+   {
+    "n": 3,
+    "text": "3.6 Shielding \ntransfer vehicle to Mars. \nThis report studies both radiation and particle shielding for the fast crew \nThere are two different types of limits to the amount of ionizing radiation \nthe human body can withstand, total dosage and dosage rate. It can be seen \nfrom the limits shown in Table 3.4 that for various organs, the absolute limits \nfor mission design are governed by those of the bone marrow (Hall, p. 686). \nThe radiation that a crew is exposed to on an interplanetary mission comes from \nthree sources: the Van Allen belts, cosmic radiation, and solar flares. Each of \nthese sources have their own characteristics and will impact the design of the \nCTV in different ways. \nThe Van Allen belts are two overlapping belts of trapped atomic particles, \nthe inner belt composed of protons and the outer one of electrons. The Apollo \nmissions passed directly through these belts, incurring an average mean dosage \nof less than 1.14 rads. It is assumed that shielding adequate for protection \nagainst solar flares will also be adequate for shielding through the belts. \nCosmic radiation is made up chiefly of high energy (lo3 to lo7 MeV)",
+    "doc_id": "19890006597",
+    "title": "Design of a fast crew transfer vehicle to Mars",
+    "year": "1988",
+    "url": "https://ntrs.nasa.gov/citations/19890006597",
+    "page": 58,
+    "chunk_id": "19890006597-p58-72",
+    "rerank_score": 4.9964423179626465
+   },
+   {
+    "n": 4,
+    "text": "is discussed as is the potential for use of the hydrogen propellant tanks for reactor \nshielding. \n3.1.1 Radiation Shielding Requirements Assessment \n3.1.1.1 ESMD Reference Mission Shielding Concerns \nIn planning missions to Mars, it is essential to study potential space radiation damage, \nespecially where humans will be involved in the missions. Radiation in the space \nenvironment remains one of the greatest risks to human health. The radiation \nenvironment fluctuates considerably over time and location, meaning that the crew will \nlikely require different protection or countermeasure approaches over the course of a \nlong-duration mission. In assessing the transit habitat module of the Exploration Systems \nMission Directorate (ESMD), it was determined that the module masses included therein \ndo not appear to adequately accommodate shielding for protection during deep space, \npiloted missions. This section provides an assessment of radiation shielding requirements \nfor crew protection during a prescribed Mars mission. \n \nIt has been determined that the crew habitat module, supplied by NASA-JSC does not",
+    "doc_id": "20240013888",
+    "title": "Nuclear Thermal Propulsion Requirements Analysis of the ESAS Reference Human Mars Mission Architecture",
+    "year": "2006",
+    "url": "https://ntrs.nasa.gov/citations/20240013888",
+    "page": 16,
+    "chunk_id": "20240013888-p16-20",
+    "rerank_score": 4.969032287597656
+   },
+   {
+    "n": 5,
+    "text": "(1yr, solar min) \n \nSPE: 150 mSv transit \nSPE: <100 mSv surface \nApproaching/exceeding ISS crew mission \nexposures; Cumulative exposures increase risk \nof radiogenic cancers. Additional protection \nstrategies may reduce health risks for most \nexperienced crew and those most sensitive to \nradiation effects. \nHumans to Mars \n870 - 1250 days with \nstay times of 30-50 \nsols. Some crew may \nstay in Mars orbit. \n~525 mSv (870 days, \nsolar max) to 1650 mSv \n(1250 days, solar min) \nThree to four times > ISS exposures; all \nreference missions exceed 600 mSv limit; In \naddition to cancers, increased risks to CNS \nfunction, cardiovascular disease, \ncerebrovascular, and neurocognitive diseases. \nEffects of the combined stressors of \nspaceflight unknown. Possibility for unknown \nunknowns. Risk levels are not well \nunderstood. Additional protection strategies \nrequired for all crew. \n \n \nIV Quantifying Radiation Risks \nIdentifying space radiation\u2013 related health risks requires integrating data across a hierarchy of evidence, with \nhuman epidemiology, animal studies, and cellular models each playing distinct yet complementary roles. While",
+    "chunk_id": "20250006168-p5-18",
+    "url": "https://ntrs.nasa.gov/citations/20250006168",
+    "page": 5,
+    "year": "2025",
+    "doc_id": "20250006168",
+    "title": "Moon 2 Mars Space Radiation Protection \u201cBuying Down\u201d Risks to Crew",
+    "rerank_score": 4.778589248657227
+   }
+  ],
+  "timings_ms": {
+   "retrieve": 1041,
+   "generate": 10983,
+   "total": 12023
+  }
+ },
+ {
+  "question": "When did astronauts last walk on the Moon?",
+  "answer": "The NASA reports in this corpus do not cover that question.",
+  "declined": true,
+  "decline_reason": "retrieval_gate (top rerank score -3.57)",
+  "citations": [],
+  "contexts": [
+   {
+    "n": 1,
+    "text": "the crew of Salyut-7, in orbit from Feb. 8 to Oct. 2, 1984, showed that although \nerratic changes in body mass occurred to the cosmonauts in the first 100 days, \nthe measurements did seem to level off at about 95% of original body mass until \nthe end of the mission after 237 days. Preventative measures included wearing \na weighted suit, daily exercises, forced circulatory system work with \"vacuum \ntrousers,\" and increased consumption of water (Feoktistov, p.97). \nThe physiological data recorded aboard Skylab, while for shorter periods \nthan that of the Soviets, is nevertheless more extensive and complete. After the \n59-day Skylab 3 mission, for example, it was found that the astronauts' physical \nreactions stabilized by day 39 of the mission, and readaptation time was much \nfaster than that of the 28-day Skylab 2 astronauts. Doctors attributed this to \ndaily rigorous exercise (NASA Mission Report, p.5). \nPresent studies suggest that bone demineralization and body systems losses \nreach a plateau of finite but minimal degradation, and that there is not much \ndifference between a mission of 90 days and one of 180 days (Charles, 1988).",
+    "doc_id": "19890006597",
+    "title": "Design of a fast crew transfer vehicle to Mars",
+    "year": "1988",
+    "url": "https://ntrs.nasa.gov/citations/19890006597",
+    "page": 55,
+    "chunk_id": "19890006597-p55-66",
+    "rerank_score": -3.5677249431610107
+   },
+   {
+    "n": 2,
+    "text": "[20] Human Landing System NextSTEP -2 Appendix H BAA Final Release. Virtual Industry Forum. Octo ber 3, 2019. Last \nAccessed May 26, 2021. https://www.nasa.gov/sites/default/files/atoms/files/hls_nextstep-h_baa_virtual-industryforum_10-3-19.pdf. \n[21] Minus Eighty Laboratory Freezer for ISS (MELFI). European Space Agency. Last Accessed June 5, 2021. \nhttp://wsn.spaceflight.esa.int/docs/Factsheets/16%20MELFI%20HR_WEB.pdf. \n[22] Overview. NASA Astrophysics. Last Accessed May 26, 2021. https://science.nasa.gov/astrophysics. \n[23] Overview. NASA Heliophysics. Last Accessed May 26, 2021. https://science.nasa.gov/heliophysics. \n[24] Overview. NASA Planetary Science. Last Accessed May 26, 2021. https://science.nasa.gov/solar-system. \n[25] Overview. NASA Earth Science. Last Accessed May 26, 2021. https://science.nasa.gov/earth-science.",
+    "doc_id": "20210021308",
+    "title": "Notional Habitat Science Outfitting for a Lunar Surface Habitat or Mars Transit Habitat",
+    "year": "2021",
+    "url": "https://ntrs.nasa.gov/citations/20210021308",
+    "page": 17,
+    "chunk_id": "20210021308-p17-51",
+    "rerank_score": -4.669363021850586
+   },
+   {
+    "n": 3,
+    "text": "1.0 General Summary \n1.1 Project Background \nAs stated in the report of the National Commission on Space, the \nestablishment of permanent manned bases on the Moon and Mars are long term \ngoals for the U.S. space program (National Commission on Space, p. 5-18). \nOnly through extensive manned exploration can the U.S. fully determine the \napplicability of available resources of the Moon and the outer planets. The \nMars Company, MARCO, concentrated its efforts on specifying the \nrequirements for a fast Crew Transfer Vehicle (CTV) for a manned Mars \nmission. This vehicle will make a heliocentric transfer to Mars in 150 days, stay \nat Mars for 40 days, and return to Earth in another 150 days. \nMARCO's work is a continuation of the work begun by the University of \nTexas at Austin Spacecraft Design Group in the Spring of 1985 and further \ndeveloped in 1986 and 1987. This proposed mission design developed a \nscenario using two vehicles and was nicknamed the \"split mission.\" A slow, \nunmanned Barge containing scientific experiments, fuel, and extra supplies \nwould first be sent to Mars. Once the Barge was in orbit around Mars, a fast",
+    "title": "Design of a fast crew transfer vehicle to Mars",
+    "chunk_id": "19890006597-p9-7",
+    "year": "1988",
+    "doc_id": "19890006597",
+    "url": "https://ntrs.nasa.gov/citations/19890006597",
+    "page": 9,
+    "rerank_score": -5.335327625274658
+   },
+   {
+    "n": 4,
+    "text": "[14] About HRP. Human Research Program. Last Accessed May 26, 2021. https://www.nasa.gov/hrp/about. \n[15] Human Research Facility-1. ISS Science for Everyone. Space Station Research Explorer on NASA.gov. Last Accessed May \n30, 2021. https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=67. \n[16] Human Research Facility-2. ISS Science for Everyone. Space Station Research Explorer on NASA.gov. Last Accessed May \n30, 2021. https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Facility.html?#id=58. \n[17] What We Study. NASA Science. Last Accessed May 26, 2021. \n[18] OSEWG lunar payloads_Revisited_28May19.xls. Raw Data. June 7, 2019. Internal NASA Document. \n[19] Charles Shearer, Clive Neal (Co -Chairs, Curation and Analysis Planning Team for Extraterrestrial Materials). Review of \nSample Acquisition and Curation During Lunar Surface Activities. CAPTEM -LEAG Analysis Document. September 1, \n2010. Last Accessed May 26, 2021. https://www.lpi.usra.edu/leag/reports/LEAG_CAPTEMCurationReview.pdf. \n[20] Human Landing System NextSTEP -2 Appendix H BAA Final Release. Virtual Industry Forum. Octo ber 3, 2019. Last",
+    "doc_id": "20210021308",
+    "title": "Notional Habitat Science Outfitting for a Lunar Surface Habitat or Mars Transit Habitat",
+    "year": "2021",
+    "url": "https://ntrs.nasa.gov/citations/20210021308",
+    "page": 17,
+    "chunk_id": "20210021308-p17-50",
+    "rerank_score": -5.419790744781494
+   },
+   {
+    "n": 5,
+    "text": ". \n.'* . \nHuman Exploration of the Moon and Mars: Space Radiation Data, \nModeling and Instrumentation Needs \nJ.H. Adams, Jr.a, A.F. Barghoutya, M. Bhattacharyab, Zi-Wei Linb. \n(a) NASA Marshall Space Flight Center. Mail Stop XD12. Himtsville, AL 35812. USA \n(b) Universily of Alabama in Huntsville. Mail Slop XDI2. NSSTC, 320 Sparkman Drive, Huntsville, AL 35805, USA \nPresenter: J.H. Adams, Jr. (james.h.adams@nasa.gov), usa-adams-J-absl -sh2 1-oral \nNASA is planning to return astronauts to the moon and then send them to Mars. Data and modeling of the \nspace radiation environment will be needed to plan these missions and instrumentation will be needed to \nconduct them safely. This talk will suggest the kinds of data, models and instrumentation that will be needed \nto plan and support human exploration of the Moon and Mars. \n1. Extended Abstract \nOn January 14, 2004 President Bush announced the Vision for Space Exploration, a program for long-term \nhuman and robotic exploration of the solar system which will include a return of humans to the moon not \nlater than 2020, followed by human missions to Mars. Since this announcement, NASA has been developing",
+    "doc_id": "20050217156",
+    "title": "Human Exploration of the Moon and Mars: Space Radiation Data, Modeling and Instrumentation Needs",
+    "year": "2005",
+    "url": "https://ntrs.nasa.gov/citations/20050217156",
+    "page": 1,
+    "chunk_id": "20050217156-p1-0",
+    "rerank_score": -6.111320495605469
+   }
+  ],
+  "timings_ms": {
+   "retrieve": 1807
+  }
+ },
+ {
+  "question": "Why does the Mars Ascent Vehicle use methane and oxygen?",
+  "answer": "The Mars Ascent Vehicle uses methane and oxygen because this cryogenic propellant pair is considered the most promising for on\u2011Mars production, offering volumetric favorability over liquid hydrogen and enabling a \u201cMars\u2011forward\u201d architecture [3]. Additionally, an ISRU system that produces both methane and oxygen from Martian resources can reduce the landed propellant mass by up to 95\u202f%, making the mission significantly lighter and more efficient [5].",
+  "declined": false,
+  "decline_reason": null,
+  "citations": [
+   {
+    "n": 3,
+    "doc_id": "20205007701",
+    "title": "A Parametric Assessment of Lunar and Mars Ascent Vehicle Synergy",
+    "page": 9,
+    "url": "https://ntrs.nasa.gov/citations/20205007701"
+   },
+   {
+    "n": 5,
+    "doc_id": "20170001421",
+    "title": "An ISRU Propellant Production System to Fully Fuel a Mars Ascent Vehicle",
+    "page": 10,
+    "url": "https://ntrs.nasa.gov/citations/20170001421"
+   }
+  ],
+  "contexts": [
+   {
+    "n": 1,
+    "text": "American Institute of Aeronautics and Astronautics \n \n \n1 \nAn ISRU Propellant Production System to Fully Fuel a Mars \nAscent Vehicle \nJulie E. Kleinhenz1 \nNASA Glenn Research Center, Cleveland, OH, 44135 \nAaron Paz2 \nNASA Johnson Space Center, Houston, TX, 77058 \nIn-Situ Resource Utilization (ISRU) will enable the long term presence of humans beyond \nlow earth orbit. Since 2009, oxygen production from the Mars atmosphere has been baselined \nas an enabling technology for Mars human exploration by NASA. However, using water from \nthe Martian regolith in addition to the atmospheric CO2 would enable the production of both \nliquid Methane and liquid Oxygen, thus fully fueling a Mars return vehicle. A case study was \nperformed to show how ISRU can support NASA\u2019s Evolvable Mars Campaign (EMC) using \nmethane and oxygen production from Mars resources. A model was built and used to generate \nmass and power estimates of an end-to-end ISRU system including excavation and extraction \nwater from Mars regolith, processing the Mars atmosphere, and liquefying the propellants. \nEven using the lowest yield regolith, a full ISRU system would weigh 1.7 mT while eliminating",
+    "doc_id": "20170001421",
+    "title": "An ISRU Propellant Production System to Fully Fuel a Mars Ascent Vehicle",
+    "year": "2017",
+    "url": "https://ntrs.nasa.gov/citations/20170001421",
+    "page": 1,
+    "chunk_id": "20170001421-p1-0",
+    "rerank_score": 5.553687572479248
+   },
+   {
+    "n": 2,
+    "text": "combination with the atmospheric CO 2, would enable the production of both o xygen and methane to fully fuel an \nascent vehicle, as well as supply both water and oxygen for life support purposes. This approach was not previously \nbaselined due to the perceived complexities and mass penalties involved in mining the regolith and lack of confidence \nin water availability. Since the publication of DRA5.0, robotic and orbital exploration of Mars have indicated a greater \nlikelihood, and more prevalent presence, of wat er in the Mars regolith 2. A study was therefore commissioned by the \nNASA Evolvable Mars Campaign (EMC) to estimate the quantitative benefit s and trades involved in an end -to-end \nMars water ISRU system. \n \n1 Research Aerospace Engineer , Chemical and Thermal Propulsion Systems , 21000 Brookpark Rd. Cleveland, OH \n44135, Senior Member. \n2 Mechanical Engineer, Propulsion and Power Division/Energy Conversion Systems, 2101 Nasa Pkwy/Mailcode EP3 \nHouston, TX 77058, AIAA member \nI",
+    "doc_id": "20170001421",
+    "title": "An ISRU Propellant Production System to Fully Fuel a Mars Ascent Vehicle",
+    "year": "2017",
+    "url": "https://ntrs.nasa.gov/citations/20170001421",
+    "page": 1,
+    "chunk_id": "20170001421-p1-2",
+    "rerank_score": 5.137444019317627
+   },
+   {
+    "n": 3,
+    "text": "system (see the precedents from the Apollo and Constellation programs) , this choice precludes ISRU produ ction of \nthe propellant on Mars, requiring all ascent vehicle propellant to be imported from Earth. \nBy contrast, the cryogenic propellant choices, namely liquid oxygen (LO2) and either liquid hydrogen (LH2) or \nmethane (LCH4), are the main propellants with serious potential for production on Mars in the initial missions. While \nthis is still a subject of ongoing trade studies within NASA, LO 2/LCH4 is generally considered the more promising \ncryogenic candidate for the Mars ascent vehicle due to the volumetric favorability of LCH 4 compared to LH2 [20]. \nThus, a Lunar ascent element employing a LO 2/LCH4 main propulsion system is a particularly \u201cMars-forward\u201d \narchitecture choice. \n \n2. Dust \nWhile dust contamination is a problem on both the Moon and Mars, the Mars surface environment may be more \nchallenging than the Moon from a dust perspective. On the Moo n, the ascent vehicle must contend with dust kicked \nup by the main propulsion system plume during landing and lift -off, as well as any dust migration due to contact by \ncrew and robotic activities on the surface.",
+    "doc_id": "20205007701",
+    "title": "A Parametric Assessment of Lunar and Mars Ascent Vehicle Synergy",
+    "year": "2020",
+    "url": "https://ntrs.nasa.gov/citations/20205007701",
+    "page": 9,
+    "chunk_id": "20205007701-p9-34",
+    "rerank_score": 5.077223300933838
+   },
+   {
+    "n": 4,
+    "text": "A.I INTRODUCTION\n(Jason Andrews, Scott Anderson)\nAn alternative to using methane and oxygen as a source of rocket propellant on Mars is\nthe use of carbon monoxide and oxygen. Carbon monoxide and oxygen are readily available\nfrom the Martian atmosphere through either thermal dissociation of, or Chemical extraction from,\nthe indigenous carbon dioxide. The advantages of carbon monoxide over methane stem from the\nfact that seed hydrogen, crucial for the methane scenario, plays either a superficial role or is not\nat all required in the production of carbon monoxide. By using carbon monoxide, the propellant\nproduction plant could theoretically operate indefinitely, continuously drawing upon the Martian\natmosphere as a source of carbon dioxide.\nThis section focuses on the operating principles and problems of the various methods of\ncarbon monoxide production. The specific propellant production components (e.g., water\nelectrolyzers, compressors, refrigeration) and the respective operating principles are not\ndiscussed. The analysis focuses on two different techniques: the Reverse Water Gas Shift\nreaction and the Zirconia Electrolyzer.\nA.2 REVERSE WATER GAS SHIFT REACTOR (RWGS)",
+    "doc_id": "19950006409",
+    "title": "Project Genesis: Mars in situ propellant technology demonstrator mission",
+    "year": "1994",
+    "url": "https://ntrs.nasa.gov/citations/19950006409",
+    "page": 219,
+    "chunk_id": "19950006409-p219-272",
+    "rerank_score": 4.775988578796387
+   },
+   {
+    "n": 5,
+    "text": "mT, which is still significantly less than the 8 mT needed to support ascent propulsion using an oxygen- only ISRU \nsystem. For a water -rich landing site (high yield regolith) the addition of life-support consumables have only a \nmarginal impact on the mass and power as compared to an oxygen/methane system for ascent propulsion only. \nThis study shows that ISRU has substantial benefits in terms of reduced mass needs for a human mission to Mars . \nA full scale atmospheric ISRU system to produce oxygen for ascent propulsion reduces landed propellant mass by \nover 70%. When water mining and utilization is included to produce both methane and oxygen propellants, this mass \nreduction approaches 95%.",
+    "doc_id": "20170001421",
+    "title": "An ISRU Propellant Production System to Fully Fuel a Mars Ascent Vehicle",
+    "year": "2017",
+    "url": "https://ntrs.nasa.gov/citations/20170001421",
+    "page": 10,
+    "chunk_id": "20170001421-p10-44",
+    "rerank_score": 4.755037784576416
+   }
+  ],
+  "timings_ms": {
+   "retrieve": 606,
+   "generate": 8001,
+   "total": 8607
+  }
+ }
+]

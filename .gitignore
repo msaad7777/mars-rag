@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# Downloaded NASA PDFs and derived indexes are rebuilt locally, never committed
+data/pdfs/
+data/chroma/
+data/chunks.jsonl
+.env
+eval/results/run.log

@@ -1,0 +1,16 @@
+{"question": "Who won the 2022 FIFA World Cup?", "kind": "off_topic"}
+{"question": "What is a good recipe for sourdough bread?", "kind": "off_topic"}
+{"question": "What is the current share price of Tesla?", "kind": "off_topic"}
+{"question": "How do I reset my Kubernetes cluster's etcd backup?", "kind": "off_topic"}
+{"question": "What is the capital city of Australia?", "kind": "off_topic"}
+{"question": "How much oxygen did the MOXIE instrument on the Perseverance rover produce during its final run?", "kind": "near_miss"}
+{"question": "What was the total cost of the Ingenuity Mars Helicopter program?", "kind": "near_miss"}
+{"question": "On what date did the Mars 2020 Perseverance rover land in Jezero Crater?", "kind": "near_miss"}
+{"question": "What is the sea-level thrust of the SpaceX Raptor 3 engine?", "kind": "near_miss"}
+{"question": "Which astronauts have been selected for the first crewed Mars landing?", "kind": "near_miss"}
+{"question": "What is the launch date of the first crewed Mars mission announced by NASA in 2026?", "kind": "near_miss"}
+{"question": "How many samples has Perseverance sealed for Mars Sample Return so far?", "kind": "near_miss"}
+{"question": "What did the Chinese Zhurong rover discover about subsurface ice at Utopia Planitia?", "kind": "near_miss"}
+{"question": "What is the name of the ESA rover that was cancelled after the Russia partnership ended in 2022?", "kind": "near_miss"}
+{"question": "How long did the InSight lander's heat probe manage to dig into the Martian soil?", "kind": "near_miss"}
+{"question": "What were the results of the Mars Dune Alpha year-long CHAPEA analog mission?", "kind": "near_miss"}
