@@ -36,7 +36,7 @@ Measured on 64 answerable and 16 unanswerable questions. The method and its cave
 ## Architecture
 
 ```mermaid
-flowchart LR
+flowchart TB
     subgraph Ingest["Ingest (offline)"]
         A[NTRS API<br/>ntrs.nasa.gov] -->|"filter: GOV_PUBLIC_USE_PERMITTED"| B[82 PDFs]
         B -->|pypdf, per page| C[Clean text<br/>+ page numbers]
