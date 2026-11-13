@@ -57,3 +57,24 @@ def test_invalid_citation_is_stripped_and_valid_kept():
     assert not a.declined
     assert "[9]" not in a.answer and "[1]" in a.answer
     assert [c["n"] for c in a.citations] == [1]
+
+
+def test_download_fetches_manifest_pdfs_on_a_fresh_clone(tmp_path, monkeypatch):
+    """Regression: a fresh clone has the manifest but no PDFs, and download used to fetch nothing."""
+    import httpx
+    from mars_rag import ntrs
+    monkeypatch.setattr(ntrs, "PDF_DIR", tmp_path)
+    monkeypatch.setattr(ntrs.time, "sleep", lambda s: None)
+    manifest = {"1": {"id": "1", "title": "A", "pdf_url": "https://ntrs.example/1.pdf"},
+                "2": {"id": "2", "title": "B", "pdf_url": "https://ntrs.example/2.pdf"}}
+    (tmp_path / "2.pdf").write_bytes(b"%PDF already here")
+    seen = []
+
+    def handler(request):
+        seen.append(str(request.url))
+        return httpx.Response(200, content=b"%PDF-1.7 fake")
+
+    with httpx.Client(transport=httpx.MockTransport(handler)) as client:
+        assert ntrs.fetch_manifest(client, manifest) == 0
+    assert seen == ["https://ntrs.example/1.pdf"]
+    assert (tmp_path / "1.pdf").read_bytes().startswith(b"%PDF")

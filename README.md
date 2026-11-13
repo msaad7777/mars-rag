@@ -312,7 +312,7 @@ You need [uv](https://docs.astral.sh/uv/) and [Ollama](https://ollama.com) insta
 ollama pull gpt-oss:20b
 git clone https://github.com/msaad7777/mars-rag && cd mars-rag
 uv sync
-uv run mars-rag download     # about 175 MB of PDFs from NTRS, using the manifest's queries
+uv run mars-rag download     # the 82 PDFs listed in data/manifest.json, about 175 MB from NTRS
 uv run mars-rag ingest       # chunk, embed and index (about 5 min on CPU)
 uv run mars-rag ask "How much propellant must ISRU produce to fuel a Mars Ascent Vehicle?"
 uv run mars-rag serve        # FastAPI on http://127.0.0.1:8000, POST /ask {"question": "..."}

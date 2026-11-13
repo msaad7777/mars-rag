@@ -56,13 +56,49 @@ def publication_year(rec: dict) -> str:
     return (min(pubs) if pubs else rec.get("created") or rec.get("distributionDate") or "")[:4]
 
 
-def main() -> None:
+def fetch_manifest(client: httpx.Client, manifest: dict[str, dict]) -> int:
+    """Download the PDF of every report in the committed manifest that isn't on disk yet.
+
+    This is what a fresh clone needs: the exact corpus the eval was run on, not a new search.
+    """
+    missing = 0
+    for rid, meta in sorted(manifest.items()):
+        path = PDF_DIR / f"{rid}.pdf"
+        if path.exists():
+            continue
+        try:
+            resp = client.get(meta["pdf_url"])
+            resp.raise_for_status()
+        except httpx.HTTPError as e:
+            print(f"  failed {rid}: {e}")
+            missing += 1
+            continue
+        if not resp.content.startswith(b"%PDF"):
+            print(f"  failed {rid}: not a PDF")
+            missing += 1
+            continue
+        path.write_bytes(resp.content)
+        print(f"  {rid} {meta['title'][:70]}")
+        time.sleep(0.5)  # be polite to NTRS
+    return missing
+
+
+def main(refresh: bool = False) -> None:
+    """Fetch the manifest's PDFs. With refresh=True, also search NTRS again for new reports."""
     PDF_DIR.mkdir(parents=True, exist_ok=True)
     manifest: dict[str, dict] = {}
     if MANIFEST.exists():
         manifest = {d["id"]: d for d in json.loads(MANIFEST.read_text())}
     with httpx.Client(timeout=60, follow_redirects=True,
                       headers={"User-Agent": "mars-rag-portfolio/0.1"}) as client:
+        if manifest:
+            missing = fetch_manifest(client, manifest)
+            have = len(manifest) - missing
+            print(f"{have} of {len(manifest)} manifest PDFs on disk")
+            if not refresh:
+                if missing:
+                    raise SystemExit(f"{missing} PDFs could not be downloaded; run `mars-rag download` again")
+                return
         for q in QUERIES:
             taken = 0
             for rec in search(client, q):

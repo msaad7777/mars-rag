@@ -6,7 +6,8 @@ import json
 def main() -> None:
     p = argparse.ArgumentParser(prog="mars-rag")
     sub = p.add_subparsers(dest="cmd", required=True)
-    sub.add_parser("download", help="fetch the NTRS corpus listed by the query plan")
+    dl = sub.add_parser("download", help="fetch the PDFs listed in data/manifest.json")
+    dl.add_argument("--refresh", action="store_true", help="also search NTRS for new reports (changes the corpus)")
     sub.add_parser("ingest", help="chunk, embed and index the PDFs into Chroma")
     ask = sub.add_parser("ask", help="ask a question")
     ask.add_argument("question")
@@ -17,7 +18,7 @@ def main() -> None:
 
     if args.cmd == "download":
         from .ntrs import main as run
-        run()
+        run(refresh=args.refresh)
     elif args.cmd == "ingest":
         from .ingest import main as run
         run()

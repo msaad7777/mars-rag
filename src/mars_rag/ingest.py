@@ -73,6 +73,8 @@ def build_chunks() -> list[Document]:
 def main() -> None:
     t0 = time.time()
     chunks = build_chunks()
+    if not chunks:
+        raise SystemExit("no chunks: the PDFs are missing. Run `mars-rag download` first.")
     with config.CHUNKS.open("w") as f:
         for c in chunks:
             f.write(json.dumps({"text": c.page_content, **c.metadata}) + "\n")
